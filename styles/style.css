@@ -12,6 +12,10 @@
     padding: 0;
 }
 
+.container {
+    margin-top: 130px;
+}
+
 .btn-primary {
     font-weight: 600;
     font-size: 20px;
@@ -21,6 +25,24 @@
     border-radius: 5px;
     padding: 16px 20.5px;
     font-family: 'Inter', sans-serif;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #121212;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #707070;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 50px;
 }
 
 /*--------------------
@@ -33,7 +55,7 @@
     background-repeat: no-repeat;
 }
 
-.header-banner{
+.header-banner {
     text-align: center;
     padding: 156px 308px 193px;
 }
@@ -54,4 +76,50 @@
     font-family: 'Poppins', sans-serif;
     text-align: center;
     margin-bottom: 30px;
+}
+
+/*--------------------------
+      Main Area Styles 
+-----------------------------*/
+
+/*----------------------------
+       Donate Today Styles 
+------------------------------*/
+.money {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    margin-bottom: 60px;
+}
+
+.bdt {
+    width: 135px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.bdt p {
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070;
+    font-family: 'Inter';
+    padding: 44px 10px;
+}
+
+.orange {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+.orange p{
+    color: #FF5959;
+}
+hr{
+    width: 765px;
+    margin: 0px auto 30px auto;
+}
+.donate-today .btn-primary{
+    margin-right: 650px;
+    margin-left: 650px;
 }
