@@ -213,5 +213,44 @@ hr {
 .contribution-details .section-description {
     width: 482px;
     height: 84px;
-    
+
+}
+
+/*-----------------------
+    My Updates Styles 
+-------------------------*/
+.update-details .section-description {
+    width: 691px;
+    height: 56px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+form {
+    width: 809px;
+    height: 200px;
+    background: #FFF4D6;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.subscribe {
+    display: flex;
+}
+
+.subscribe input {
+    font-weight: 500;
+    font-size: 16px;
+    color: #AA9F9F;
+    font-family: 'poppins';
+    padding-left:17px ;
+    padding-right: 100px;
+    background-color: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid white;
 }
