@@ -182,3 +182,36 @@ hr {
     font-family: 'poppins';
     text-align: justify;
 }
+
+/*----------------------------
+     Contributions Styles 
+------------------------------*/
+.contribution {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 115px;
+    margin-bottom: 151px;
+}
+
+.contribution img {
+    width: 456px;
+    height: 477px;
+}
+
+.contribution-details {
+    width: 493px;
+    height: 374px;
+}
+
+.contribution-details .section-title,
+.section-description {
+    text-align: start;
+    margin-bottom: 25px;
+}
+
+.contribution-details .section-description {
+    width: 482px;
+    height: 84px;
+    
+}
