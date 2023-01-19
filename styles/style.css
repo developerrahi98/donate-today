@@ -43,6 +43,10 @@
     color: #707070;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 691px;
+    height: 56px;
 }
 
 /*--------------------
@@ -112,14 +116,69 @@
     border: 2px solid #FF5959;
     border-radius: 5px;
 }
-.orange p{
+
+.orange p {
     color: #FF5959;
 }
-hr{
+
+hr {
     width: 765px;
     margin: 0px auto 30px auto;
 }
-.donate-today .btn-primary{
+
+.donate-today .btn-primary {
     margin-right: 650px;
     margin-left: 650px;
+}
+
+/*-----------------------
+   Donate Plan Styles 
+-------------------------*/
+.donations {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.donation {
+    width: 360px;
+    height: 352px;
+    border-radius: 5px;
+}
+
+#donation-1 {
+    background: rgba(79, 157, 166, 0.1);
+}
+
+#donation-2 {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+#donation-3 {
+    background-color: #FFF4D6;
+}
+
+.donation img {
+    margin: 63px 0px 0px 23px;
+}
+
+.donation-details {
+    width: 315px;
+    height: 153px;
+    margin: 31px 22px 54px 23px;
+}
+
+.donation-title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+    font-family: 'poppins';
+    margin-bottom: 16px;
+}
+
+.doantion-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+    font-family: 'poppins';
+    text-align: justify;
 }
