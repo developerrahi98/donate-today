@@ -3,6 +3,7 @@
 -------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 /*------------------------------
    Utilities or Common Styles 
@@ -204,13 +205,17 @@ hr {
     height: 374px;
 }
 
-.contribution-details .section-title,
-.section-description {
+.contribution-details .section-title {
     text-align: start;
     margin-bottom: 25px;
 }
 
 .contribution-details .section-description {
+    text-align: start;
+    margin-bottom: 25px;
+}
+
+.contribution-details>.section-description {
     width: 482px;
     height: 84px;
 
@@ -248,9 +253,34 @@ form {
     font-size: 16px;
     color: #AA9F9F;
     font-family: 'poppins';
-    padding-left:17px ;
+    padding-left: 17px;
     padding-right: 100px;
     background-color: #D9D9D9;
     border-radius: 5px 0px 0px 5px;
     border: 1px solid white;
+}
+
+/*-----------------------
+    Footer Area Styles 
+-------------------------*/
+.footer{
+    background: #0B0D17;
+    height: 177px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-title {
+    font-weight: 400;
+    font-size: 36px;
+    font-family: 'Lobster';
+    color: #FF5959;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 14px;
+    color: #D9DBE1;
+    font-family: 'Inter';
 }
